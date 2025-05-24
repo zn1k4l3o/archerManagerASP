@@ -1,0 +1,13 @@
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\bin\Debug\net8.0\ArcherManager.Model.deps.json
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\bin\Debug\net8.0\ArcherManager.Model.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\bin\Debug\net8.0\ArcherManager.Model.pdb
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.AssemblyInfoInputs.cache
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.AssemblyInfo.cs
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.csproj.CoreCompileInputs.cache
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.sourcelink.json
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\refint\ArcherManager.Model.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.pdb
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ref\ArcherManager.Model.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager.Model\obj\Debug\net8.0\ArcherManager.Model.csproj.AssemblyReference.cache

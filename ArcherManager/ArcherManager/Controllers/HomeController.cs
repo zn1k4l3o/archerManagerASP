@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ArcherManager.Models;
+using ArcherManager.Web.Models;
 
-namespace ArcherManager.Controllers;
+namespace ArcherManager.Web.Controllers;
 
 public class HomeController : Controller
 {

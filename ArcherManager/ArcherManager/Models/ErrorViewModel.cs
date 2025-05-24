@@ -1,4 +1,4 @@
-namespace ArcherManager.Models
+namespace ArcherManager.Web.Models
 {
     public class ErrorViewModel
     {
