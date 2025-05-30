@@ -1,0 +1,47 @@
+﻿<section>
+    <div>
+        <a asp-action="Create" class="btn btn-success">New competition</a>
+    </div>
+    @if (ViewBag.Competitions.Count > 0)
+    {
+        <table>
+            @foreach (Competition competition in @ViewBag.Competitions)
+            {
+                <tr>
+                    <td>
+                        @competition.Id
+                    </td>
+                    <td>
+                        @competition.Name
+                    </td>
+                    <td>
+                        @competition.Description
+                    </td>
+                    <td>
+                        @if (competition.Organiser.Logo != null)
+                        {
+                            <img src="@competition.Organiser.Logo" />
+                        }
+                        else
+                        {
+                            <p>No image</p>
+                        }
+                    </td>
+                    <td>
+                        @competition.Organiser.Name
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@competition.Id">Details</a>
+                    </td>
+
+            </tr>
+        }
+    </table>
+
+}
+else
+{
+    <h2>There are currently no clubs in database.</h2>
+}
+
+</section>

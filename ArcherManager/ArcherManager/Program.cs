@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ArcherManagerDbContext>(options =>
-    options.UseSqlServer(connectionString, opt => opt.MigrationsAssembly("Vjezba.DAL")));
+    options.UseSqlServer(connectionString, opt => opt.MigrationsAssembly("ArcherManager.DAL")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddAuthentication()
@@ -48,6 +48,15 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "archer",
+    pattern: "{controller=Archer}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "club",
+    pattern: "{controller=Club}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "competition",
+    pattern: "{controller=Competition}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

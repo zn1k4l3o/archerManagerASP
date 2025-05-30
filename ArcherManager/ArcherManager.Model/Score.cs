@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace ArcherManager.Model
         [Key]
         public int Id { get; set; }
         [Required]
+        [ForeignKey(nameof(Archer))]
         public int ArcherId { get; set; }
         public Archer Archer { get; set; }
         [Required]
@@ -21,7 +23,6 @@ namespace ArcherManager.Model
         public BowType BowType { get; set; }
         [Required]
         public CompetitionType CompetitionType { get;set; }
-        [Required]
         public DateOnly Date {  get; set; }
     }
 }

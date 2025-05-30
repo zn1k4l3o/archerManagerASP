@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ArcherManager.Web.q612we4nr0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 23 May 2025 23:15:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 21:24:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArcherManager.Web/ArcherManager.Web.q612we4nr0.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ArcherManager.Web.q612we4nr0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q612we4nr0"},{"Name":"integrity","Value":"sha256-fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k="},{"Name":"label","Value":"_content/ArcherManager.Web/ArcherManager.Web.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k=\u0022"},{"Name":"Last-Modified","Value":"Fri, 23 May 2025 23:15:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fnUWNcP43Sz1sUvwxPxZNNYDXGdMDv/WCEL9cJkqz2k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 25 May 2025 21:24:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArcherManager.Web/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

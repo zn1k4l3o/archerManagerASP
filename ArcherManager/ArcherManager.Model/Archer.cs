@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,9 +17,9 @@ namespace ArcherManager.Model
         [Required]
         public string Surname { get; set; }
         public DateOnly DateOfBirth { get; set; }
-        [Required]
+        [ForeignKey(nameof(Club))]
         public int ClubId { get; set; }
-        public Club Club { get; set; }
+        public Club? Club { get; set; }
 
     }
 }

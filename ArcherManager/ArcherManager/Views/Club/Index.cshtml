@@ -1,0 +1,32 @@
+﻿
+<section>
+    <div>
+        <a asp-action="Create" class="btn btn-success">New Club</a>
+    </div>
+    @if (ViewBag.AllClubs.Count > 0)
+    {
+        <table>
+            @foreach (Club club in @ViewBag.AllClubs)
+            {
+                <tr>
+                    <td>
+                        @club.Id
+                    </td>
+                    <td>
+                        @club.Name
+                    </td>
+                    <td>
+                        @club.Address
+                    </td>
+                    
+                </tr>
+            }
+        </table>
+
+    }
+    else
+    {
+        <h2>There are currently no clubs in database.</h2>
+    }
+
+</section>

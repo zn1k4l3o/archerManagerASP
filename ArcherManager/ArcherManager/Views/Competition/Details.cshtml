@@ -1,0 +1,35 @@
+﻿@model ArcherManager.Web.Models.AddArcherEntryModel
+
+<section>
+    <h2>@ViewBag.Competition.Name</h2>
+    <h3>@ViewBag.Competition.Id</h3>
+    <p>@ViewBag.Competition.Description</p>
+    <p>Lasts from @ViewBag.Competition.CompetitionStart to @ViewBag.Competition.CompetitionEnd</p>
+    <p>Organised by @ViewBag.Competition.Organiser.Name</p>
+    <h3>Entries:</h3>
+    @if (ViewBag?.Competition?.Competitors.Count > 0)
+    {
+        <table>
+            @foreach (Score score in ViewBag.Competition.Competitors)
+            {
+                <tr>
+                    <td>@score.Archer.Name</td>
+                    <td>@score.Archer.Surname</td>
+                    <td>@score.BowType</td>
+                    <td>@score.ScoreAmount</td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p>There aren't any entries in the competition.</p>
+    }
+    <form asp-action="Details" method="post">
+        <input asp-for="CompetitionId" type="hidden"/>
+        <label class="control-label">Archer</label>
+        <select asp-for="ArcherId" asp-items="ViewBag.AllArchers" class="form-control"></select>
+        <select asp-for="BowType" asp-items="ViewBag.AllBowTypes" class="form-control"></select>
+        <button type="submit" class="btn btn-primary">Add competitor</button>
+    </form>
+</section>

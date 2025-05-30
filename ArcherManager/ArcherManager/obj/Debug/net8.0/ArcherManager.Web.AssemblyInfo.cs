@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArcherManager.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed9265b8fc3c7d07215b0a28a200c189ff0ddd85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a6d35945673ef024b764236ead399ae6efd89e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArcherManager.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArcherManager.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
