@@ -64,12 +64,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Archer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Archer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Archer/_ArcherTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGVyXF9BcmNoZXJUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Club/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Club/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Club/Index.cshtml]
@@ -88,12 +100,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Competition/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25cUmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Shared/_CreateOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVPckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Shared/_CreateOrEditArcher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVPckVkaXRBcmNoZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Stvari/fileovi/archeryManager/archerManagerASP/ArcherManager/ArcherManager/Views/Shared/_LoginPartial.cshtml]

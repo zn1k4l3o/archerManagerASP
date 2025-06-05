@@ -13,7 +13,7 @@ namespace ArcherManager.DAL
         public DbSet<Archer> Archers { get; set; }
         public DbSet<Competition> Competitions { get; set; }
         public DbSet<Club> Clubs { get; set; }
-        public DbSet<Score> ArcherResults { get; set; }
-    
+
+
     }
 }

@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNet.Identity
+@model List<Archer>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Club</th>
+                <th>Date of Birth</th>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <th>Actions</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var archer in Model)
+            {
+                <tr>
+                    <td>@archer.Name</td>
+                    <td>@archer.Surname</td>
+                    <td>@archer.Club?.Name</td>
+                    <td>@archer.DateOfBirth.ToShortDateString()</td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@archer.ID" class="btn btn-sm btn-outline-primary">Edit</a>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

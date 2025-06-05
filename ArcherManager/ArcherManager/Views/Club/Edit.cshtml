@@ -1,0 +1,8 @@
+﻿@model Club
+
+<section>
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <partial name="_CreateOrEdit" />
+    </form>
+</section>

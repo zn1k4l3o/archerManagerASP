@@ -46,17 +46,20 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "natjecanja",
+    pattern: "natjecanja/{action=Index}/{id?}",
+    defaults: new { controller = "Competition" });
+app.MapControllerRoute(
+    name: "strelicari",
+    pattern: "strelicari/{action=Index}/{id?}",
+    defaults: new { controller = "Archer" });
+app.MapControllerRoute(
+    name: "klubovi",
+    pattern: "klubovi/{action=Index}/{id?}",
+    defaults: new { controller = "Club" });
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapControllerRoute(
-    name: "archer",
-    pattern: "{controller=Archer}/{action=Index}/{id?}");
-app.MapControllerRoute(
-    name: "club",
-    pattern: "{controller=Club}/{action=Index}/{id?}");
-app.MapControllerRoute(
-    name: "competition",
-    pattern: "{controller=Competition}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

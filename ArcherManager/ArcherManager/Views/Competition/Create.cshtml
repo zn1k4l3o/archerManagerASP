@@ -1,33 +1,39 @@
 ﻿@model Competition
 
-<section>
+<section class="container mt-4">
+    <h2>Create Competition</h2>
     <form asp-action="Create">
-        <div class="form-group">
-            <label class="control-label">Name</label>
+        <div class="mb-3">
+            <label class="form-label">Name</label>
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
-        <div class="form-group">
-            <label class="control-label">Description</label>
+        <div class="mb-3">
+            <label class="form-label">Description</label>
             <input asp-for="Description" class="form-control" />
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
-        <div class="form-group">
-            <label class="control-label">Start of competition</label>
+        <div class="mb-3">
+            <label class="form-label">Start Date</label>
             <input asp-for="CompetitionStart" class="form-control" type="date" />
             <span asp-validation-for="CompetitionStart" class="text-danger"></span>
         </div>
-        <div class="form-group">
-            <label class="control-label">End of competition</label>
+        <div class="mb-3">
+            <label class="form-label">End Date</label>
             <input asp-for="CompetitionEnd" class="form-control" type="date" />
             <span asp-validation-for="CompetitionEnd" class="text-danger"></span>
         </div>
-        <div class="form-group">
-            <label class="control-label">Club</label>
-            <select asp-for="OrganiserId" asp-items="ViewBag.AllClubs" class="form-control"></select>
+        <div class="mb-3">
+            <label class="form-label">Organiser</label>
+            <select asp-for="OrganiserId" asp-items="ViewBag.AllClubs" class="form-select"></select>
             <span asp-validation-for="OrganiserId" class="text-danger"></span>
         </div>
-        <div class="form-group">
+        <div class="mb-3">
+            <label class="form-label">Competition Type</label>
+            <select asp-for="CompetitionType" asp-items="ViewBag.AllCompetitionTypes" class="form-select"></select>
+            <span asp-validation-for="CompetitionType" class="text-danger"></span>
+        </div>
+        <div class="text-end">
             <input type="submit" value="Submit" class="btn btn-outline-success" />
         </div>
     </form>

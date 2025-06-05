@@ -1,0 +1,35 @@
+﻿@model Archer
+
+<h3 class="mb-4">Archer Information</h3>
+
+<div class="mb-3">
+    <label asp-for="Name" class="form-label">Name</label>
+    <input asp-for="Name" class="form-control" placeholder="First name" />
+    <span asp-validation-for="Name" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Surname" class="form-label">Surname</label>
+    <input asp-for="Surname" class="form-control" placeholder="Last name" />
+    <span asp-validation-for="Surname" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+    <input asp-for="DateOfBirth" type="date" class="form-control" />
+    <span asp-validation-for="DateOfBirth" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="ClubId" class="form-label">Club</label>
+    <select asp-for="ClubId" asp-items="ViewBag.AllClubs" class="form-select">
+        <option value="">-- Select club --</option>
+    </select>
+    <span asp-validation-for="ClubId" class="text-danger small"></span>
+</div>
+
+<div class="text-end">
+    <button type="submit" class="btn btn-success">
+        <i class="bi bi-check-circle"></i> Submit
+    </button>
+</div>

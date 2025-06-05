@@ -1,35 +1,88 @@
 ﻿@model ArcherManager.Web.Models.AddArcherEntryModel
 
-<section>
+<section class="container mt-4">
     <h2>@ViewBag.Competition.Name</h2>
-    <h3>@ViewBag.Competition.Id</h3>
-    <p>@ViewBag.Competition.Description</p>
-    <p>Lasts from @ViewBag.Competition.CompetitionStart to @ViewBag.Competition.CompetitionEnd</p>
-    <p>Organised by @ViewBag.Competition.Organiser.Name</p>
-    <h3>Entries:</h3>
+    <p class="text-muted">
+        <strong>Type:</strong> @ViewBag.Competition.CompetitionType <br />
+        <strong>Description:</strong> @ViewBag.Competition.Description <br />
+        <strong>From:</strong> @ViewBag.Competition.CompetitionStart.ToShortDateString()
+        <strong>to</strong> @ViewBag.Competition.CompetitionEnd.ToShortDateString() <br />
+        <strong>Organised by:</strong> @ViewBag.Competition.Organiser.Name
+    </p>
+
+    <h4 class="mt-4">Competitors</h4>
     @if (ViewBag?.Competition?.Competitors.Count > 0)
     {
-        <table>
-            @foreach (Score score in ViewBag.Competition.Competitors)
-            {
+        <table class="table table-striped table-bordered mt-2">
+            <thead>
                 <tr>
-                    <td>@score.Archer.Name</td>
-                    <td>@score.Archer.Surname</td>
-                    <td>@score.BowType</td>
-                    <td>@score.ScoreAmount</td>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Bow Type</th>
+                    <th>Score</th>
+                    <th>Actions</th>
                 </tr>
-            }
+            </thead>
+            <tbody>
+                @foreach (Score score in ViewBag.Competition.Competitors)
+                {
+                    <tr>
+                        <td>@score.Archer.Name</td>
+                        <td>@score.Archer.Surname</td>
+                        <td>@score.BowType</td>
+                        <td>@score.ScoreAmount</td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-danger" onclick="deleteScore(@score.Id, @ViewBag.Competition.Id)">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
         </table>
     }
     else
     {
-        <p>There aren't any entries in the competition.</p>
+        <p class="text-muted">There are no competitors entered yet.</p>
     }
+
     <form asp-action="Details" method="post">
-        <input asp-for="CompetitionId" type="hidden"/>
-        <label class="control-label">Archer</label>
-        <select asp-for="ArcherId" asp-items="ViewBag.AllArchers" class="form-control"></select>
-        <select asp-for="BowType" asp-items="ViewBag.AllBowTypes" class="form-control"></select>
-        <button type="submit" class="btn btn-primary">Add competitor</button>
+        <input asp-for="CompetitionId" type="hidden" />
+        <div class="row">
+            <div class="col-md-5">
+                <label class="form-label">Archer</label>
+                <select asp-for="ArcherId" asp-items="ViewBag.AllArchers" class="form-select"></select>
+            </div>
+            <div class="col-md-5">
+                <label class="form-label">Bow Type</label>
+                <select asp-for="BowType" asp-items="ViewBag.AllBowTypes" class="form-select"></select>
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Add</button>
+            </div>
+        </div>
     </form>
 </section>
+
+@section Scripts {
+    <script>
+        function deleteScore(scoreId, competitionId) {
+            fetch(`/Competition/DeleteScore?scoreId=${scoreId}&competitionId=${competitionId}`, {
+                method: 'DELETE'
+            })
+            .then(response => {
+                if (!response.ok) throw new Error("Delete failed");
+                return response.json();
+            })
+            .then(data => {
+                if (data.redirectUrl) {
+                    window.location.href = data.redirectUrl;
+                }
+            })
+            .catch(err => {
+                alert("Error deleting score.");
+                console.error(err);
+            });
+        }
+    </script>
+}

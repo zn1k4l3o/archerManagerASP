@@ -34,5 +34,31 @@ namespace ArcherManager.Web.Controllers
             }
 
         }
+
+        [HttpGet]
+        [ActionName(nameof(Edit))]
+        public IActionResult Edit(int id)
+        {
+            var model = _dbContext.Clubs.FirstOrDefault(c => c.Id == id);
+            return View(model);
+        }
+
+        [HttpPost]
+        [ActionName(nameof(Edit))]
+        public async Task<IActionResult> EditPost(int id)
+        {
+            var club = _dbContext.Clubs.Single(c => c.Id == id);
+            var ok = await this.TryUpdateModelAsync(club);
+
+            if (ok && this.ModelState.IsValid)
+            {
+                _dbContext.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View();
+        }
+
+
     }
 }

@@ -1,0 +1,8 @@
+﻿@model Archer
+
+<section>
+    <form asp-action="Edit" method="post">
+        <input asp-for="ID" type="hidden" />
+        <partial name="_CreateOrEditArcher" />
+    </form>
+</section>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArcherManager.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a6d35945673ef024b764236ead399ae6efd89e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50de256b0ab13ab7ac63641c5796ea82de684056")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArcherManager.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArcherManager.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

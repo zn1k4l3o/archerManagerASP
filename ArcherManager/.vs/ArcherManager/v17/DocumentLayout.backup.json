@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\models\\addarcherentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\models\\addarcherentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.dal\\migrations\\20250605093514_addedcitynologo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|solutionrelative:archermanager.dal\\migrations\\20250605093514_addedcitynologo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.dal\\archermanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|solutionrelative:archermanager.dal\\archermanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.dal\\archermanagerdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|solutionrelative:archermanager.dal\\archermanagerdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.dal\\archermanager.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|solutionrelative:archermanager.dal\\archermanager.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.dal\\migrations\\archermanagerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A405BA-472B-46F7-A1BA-ADBD77642804}|ArcherManager.DAL\\ArcherManager.DAL.csproj|solutionrelative:archermanager.dal\\migrations\\archermanagerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\shared\\_createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\shared\\_createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\club\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\club\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\competition\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\competition\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\controllers\\competitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +75,28 @@
       "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\competition\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\controllers\\archercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\controllers\\archercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\archer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\archer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager.model\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E69724-A0B5-41B0-8BBB-8191676D988B}|ArcherManager.Model\\ArcherManager.Model.csproj|solutionrelative:archermanager.model\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\archer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\archer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|c:\\stvari\\fileovi\\archerymanager\\archermanagerasp\\archermanager\\archermanager\\views\\archer\\_archertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68B47D58-26E4-4AD5-BE5D-C94649B5F604}|ArcherManager\\ArcherManager.Web.csproj|solutionrelative:archermanager\\views\\archer\\_archertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,59 +105,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 883,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 1284,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Constants.cs",
-              "RelativeDocumentMoniker": "ArcherManager.Model\\Constants.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Constants.cs",
-              "RelativeToolTip": "ArcherManager.Model\\Constants.cs",
+              "DocumentIndex": 0,
+              "Title": "20250605093514_AddedCityNoLogo2.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\Migrations\\20250605093514_AddedCityNoLogo2.cs",
+              "RelativeDocumentMoniker": "ArcherManager.DAL\\Migrations\\20250605093514_AddedCityNoLogo2.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\Migrations\\20250605093514_AddedCityNoLogo2.cs",
+              "RelativeToolTip": "ArcherManager.DAL\\Migrations\\20250605093514_AddedCityNoLogo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T09:35:42.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArcherManagerDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManagerDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ArcherManager.DAL\\ArcherManagerDbContextFactory.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManagerDbContextFactory.cs",
+              "RelativeToolTip": "ArcherManager.DAL\\ArcherManagerDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T07:37:02.597Z",
+              "WhenOpened": "2025-06-05T09:28:42.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Archer.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Archer.cs",
-              "RelativeDocumentMoniker": "ArcherManager.Model\\Archer.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Archer.cs",
-              "RelativeToolTip": "ArcherManager.Model\\Archer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Title": "ArcherManagerDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\Migrations\\ArcherManagerDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ArcherManager.DAL\\Migrations\\ArcherManagerDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\Migrations\\ArcherManagerDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ArcherManager.DAL\\Migrations\\ArcherManagerDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:30:54.037Z",
+              "WhenOpened": "2025-06-05T09:26:43.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\Create.cshtml",
-              "RelativeDocumentMoniker": "ArcherManager\\Views\\Archer\\Create.cshtml",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\Create.cshtml",
-              "RelativeToolTip": "ArcherManager\\Views\\Archer\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "_CreateOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Shared\\_CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Shared\\_CreateOrEdit.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Shared\\_CreateOrEdit.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Shared\\_CreateOrEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T20:51:57.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddArcherEntryModel.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Models\\AddArcherEntryModel.cs",
-              "RelativeDocumentMoniker": "ArcherManager\\Models\\AddArcherEntryModel.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Models\\AddArcherEntryModel.cs",
-              "RelativeToolTip": "ArcherManager\\Models\\AddArcherEntryModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T20:53:36.164Z",
+              "WhenOpened": "2025-06-05T09:07:02.345Z",
               "EditorCaption": ""
             },
             {
@@ -108,66 +168,256 @@
               "RelativeDocumentMoniker": "ArcherManager\\Views\\Competition\\Index.cshtml",
               "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Competition\\Index.cshtml",
               "RelativeToolTip": "ArcherManager\\Views\\Competition\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T20:41:17.433Z"
+              "WhenOpened": "2025-06-05T09:06:02.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Competition.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Competition.cs",
-              "RelativeDocumentMoniker": "ArcherManager.Model\\Competition.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Competition.cs",
-              "RelativeToolTip": "ArcherManager.Model\\Competition.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAATAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "ArcherManager\\Controllers\\ClubController.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "ArcherManager\\Controllers\\ClubController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:56:17.291Z",
+              "WhenOpened": "2025-06-05T09:05:38.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Club\\Edit.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Edit.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Club\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T09:05:31.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Club\\Create.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Create.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Club\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T09:05:29.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CompetitionController.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\CompetitionController.cs",
-              "RelativeDocumentMoniker": "ArcherManager\\Controllers\\CompetitionController.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\CompetitionController.cs",
-              "RelativeToolTip": "ArcherManager\\Controllers\\CompetitionController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGAAAABGAAAAAAAAAA==",
+              "Title": "ArcherManagerDbContext.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManagerDbContext.cs",
+              "RelativeDocumentMoniker": "ArcherManager.DAL\\ArcherManagerDbContext.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManagerDbContext.cs",
+              "RelativeToolTip": "ArcherManager.DAL\\ArcherManagerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:55:46.301Z",
+              "WhenOpened": "2025-06-05T08:58:54.518Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 711,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArcherManager.DAL",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManager.DAL.csproj",
+              "RelativeDocumentMoniker": "ArcherManager.DAL\\ArcherManager.DAL.csproj",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.DAL\\ArcherManager.DAL.csproj",
+              "RelativeToolTip": "ArcherManager.DAL\\ArcherManager.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T08:58:51.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Archer.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Archer.cs",
+              "RelativeDocumentMoniker": "ArcherManager.Model\\Archer.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Archer.cs",
+              "RelativeToolTip": "ArcherManager.Model\\Archer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:57:20.159Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\City.cs",
+              "RelativeDocumentMoniker": "ArcherManager.Model\\City.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\City.cs",
+              "RelativeToolTip": "ArcherManager.Model\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:51:39.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Club.cs",
+              "RelativeDocumentMoniker": "ArcherManager.Model\\Club.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Club.cs",
+              "RelativeToolTip": "ArcherManager.Model\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:49:28.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Competition\\Details.cshtml",
               "RelativeDocumentMoniker": "ArcherManager\\Views\\Competition\\Details.cshtml",
               "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Competition\\Details.cshtml",
               "RelativeToolTip": "ArcherManager\\Views\\Competition\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T19:55:48.587Z",
+              "WhenOpened": "2025-06-05T08:01:08.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Score.cs",
-              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Score.cs",
-              "RelativeDocumentMoniker": "ArcherManager.Model\\Score.cs",
-              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Score.cs",
-              "RelativeToolTip": "ArcherManager.Model\\Score.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Competition\\Results.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Competition\\Results.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Competition\\Results.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Competition\\Results.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T07:49:14.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompetitionController.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\CompetitionController.cs",
+              "RelativeDocumentMoniker": "ArcherManager\\Controllers\\CompetitionController.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\CompetitionController.cs",
+              "RelativeToolTip": "ArcherManager\\Controllers\\CompetitionController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwKUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T20:04:04.026Z",
+              "WhenOpened": "2025-06-05T07:47:44.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Competition.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Competition.cs",
+              "RelativeDocumentMoniker": "ArcherManager.Model\\Competition.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager.Model\\Competition.cs",
+              "RelativeToolTip": "ArcherManager.Model\\Competition.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:46:07.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T07:15:04.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T07:09:53.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Club\\Index.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Club\\Index.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Club\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:53:57.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Program.cs",
+              "RelativeDocumentMoniker": "ArcherManager\\Program.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Program.cs",
+              "RelativeToolTip": "ArcherManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:33:24.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ArcherTable.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\_ArcherTable.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Archer\\_ArcherTable.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\_ArcherTable.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Archer\\_ArcherTable.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T10:20:44.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ArcherController.cs",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\ArcherController.cs",
+              "RelativeDocumentMoniker": "ArcherManager\\Controllers\\ArcherController.cs",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Controllers\\ArcherController.cs",
+              "RelativeToolTip": "ArcherManager\\Controllers\\ArcherController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:11:48.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArcherManager\\Views\\Archer\\Index.cshtml",
+              "ToolTip": "C:\\Stvari\\fileovi\\archeryManager\\archerManagerASP\\ArcherManager\\ArcherManager\\Views\\Archer\\Index.cshtml",
+              "RelativeToolTip": "ArcherManager\\Views\\Archer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:39:29.533Z",
               "EditorCaption": ""
             }
           ]

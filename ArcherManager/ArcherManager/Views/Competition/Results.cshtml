@@ -1,0 +1,47 @@
+﻿@model ArcherManager.Web.Models.InputScoreModel
+
+<section class="container mt-4">
+    <h2 class="mb-2">@ViewBag.Competition.Name</h2>
+    <h5 class="mb-4 text-muted">Competition type: @ViewBag.Competition.CompetitionType</h5>
+
+    @if (ViewBag?.Competition?.Competitors.Count > 0)
+    {
+        <form asp-action="Results" method="post">
+            <input asp-for="CompetitionId" type="hidden" />
+
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Bow Type</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Competitors.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.Competitors[i].Archer.Name</td>
+                            <td>@Model.Competitors[i].Archer.Surname</td>
+                            <td>@Model.Competitors[i].BowType</td>
+                            <td>
+                                <input asp-for="Competitors[@i].ScoreAmount" type="number" class="form-control" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="text-end mt-3">
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-check-circle"></i> Save Results
+                </button>
+            </div>
+        </form>
+    }
+    else
+    {
+        <div class="alert alert-warning">There aren't any entries in the competition.</div>
+    }
+</section>

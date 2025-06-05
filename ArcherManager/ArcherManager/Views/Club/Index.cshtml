@@ -1,32 +1,46 @@
-﻿
-<section>
-    <div>
+﻿<section class="container mt-4">
+    <div class="d-flex justify-content-between mb-3">
+        <h2>All Clubs</h2>
         <a asp-action="Create" class="btn btn-success">New Club</a>
     </div>
+
     @if (ViewBag.AllClubs.Count > 0)
     {
-        <table>
-            @foreach (Club club in @ViewBag.AllClubs)
-            {
+        <table class="table table-bordered table-striped">
+            <thead>
                 <tr>
-                    <td>
-                        @club.Id
-                    </td>
-                    <td>
-                        @club.Name
-                    </td>
-                    <td>
-                        @club.Address
-                    </td>
-                    
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <th>Actions</th>
+                    }
                 </tr>
-            }
-        </table>
+            </thead>
+            <tbody>
+                @foreach (Club club in ViewBag.AllClubs)
+                {
+                    <tr>
+                        <td>@club.Id</td>
+                        <td>@club.Name</td>
+                        <td>@club.Address</td>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@club.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+                            </td>
+                        }
 
+                    </tr>
+                }
+            </tbody>
+        </table>
     }
     else
     {
-        <h2>There are currently no clubs in database.</h2>
+        <div class="alert alert-info">
+            There are currently no clubs in the database.
+        </div>
     }
-
 </section>

@@ -300,4 +300,13 @@ C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\ob
 C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\obj\Debug\net8.0\ArcherManager.Web.pdb
 C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\obj\Debug\net8.0\ArcherManager.Web.genruntimeconfig.cache
 C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\obj\Debug\net8.0\ref\ArcherManager.Web.dll
-C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\EntityFramework.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.Owin.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+C:\Stvari\fileovi\archeryManager\archerManagerASP\ArcherManager\ArcherManager\bin\Debug\net8.0\Owin.dll

@@ -116,6 +116,40 @@ namespace ArcherManager.DAL.Migrations
                     b.ToTable("Archers");
                 });
 
+            modelBuilder.Entity("ArcherManager.Model.City", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Zagreb"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Kutina"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Varaždin"
+                        });
+                });
+
             modelBuilder.Entity("ArcherManager.Model.Club", b =>
                 {
                     b.Property<int>("Id")
@@ -128,14 +162,16 @@ namespace ArcherManager.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Logo")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CityId");
 
                     b.ToTable("Clubs");
                 });
@@ -207,7 +243,7 @@ namespace ArcherManager.DAL.Migrations
 
                     b.HasIndex("CompetitionId");
 
-                    b.ToTable("ArcherResults");
+                    b.ToTable("Score");
                 });
 
             modelBuilder.Entity("ArcherManager.Model.User", b =>
@@ -381,6 +417,17 @@ namespace ArcherManager.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Club");
+                });
+
+            modelBuilder.Entity("ArcherManager.Model.Club", b =>
+                {
+                    b.HasOne("ArcherManager.Model.City", "City")
+                        .WithMany()
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
                 });
 
             modelBuilder.Entity("ArcherManager.Model.Competition", b =>

@@ -1,0 +1,23 @@
+﻿@model Club
+
+<h3 class="mb-4">Club Information</h3>
+
+<div class="mb-3">
+    <label asp-for="Name" class="form-label">Name</label>
+    <input asp-for="Name" class="form-control" placeholder="Enter club name" />
+    <span asp-validation-for="Name" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Address" class="form-label">Address</label>
+    <input asp-for="Address" class="form-control" placeholder="Enter address" />
+    <span asp-validation-for="Address" class="text-danger small"></span>
+</div>
+
+
+
+<div class="text-end">
+    <button type="submit" class="btn btn-success">
+        <i class="bi bi-check-circle"></i> Submit
+    </button>
+</div>
